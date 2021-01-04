@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_2013336_yy2v269hvl.css">
+    <script src="http://api.tianditu.gov.cn/api?v=4.0&tk=7c41a5d126ba4e2bac49092bf2c8a9e9"></script>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-family: 'Microsoft YaHei', '微软雅黑', 'PingFang';
+      outline: none;
+      border: none;
+      text-decoration: none;
+      /* box-sizing: border-box; */
+    }
+    html,
+    body {
+      height: 100%;
+      min-height: 100%;
+      min-width: 1280px;
+    }
+  </style>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
